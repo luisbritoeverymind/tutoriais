@@ -10,6 +10,10 @@ O repositório está organizado da seguinte forma:
   - Descrição: Este tutorial fornece uma visão geral do Salesforce e seus principais recursos.
   - Arquivos: `tutorial1.md`
 
+- **Tutorial 2**: Fórmulas Flow
+  - Descrição: Lista de todas as fórmulas disponíveis para o Salesforce Flow.
+  - Arquivos: [Todas as Fórmulas Para Flows Salesforce / README.md]()
+
 ## Contribuição
 
 Se você deseja contribuir para este repositório, fique à vontade para enviar um pull request. Sinta-se à vontade para adicionar novos tutoriais, corrigir erros, melhorar a estrutura ou atualizar o conteúdo existente. Sua contribuição é muito apreciada!
