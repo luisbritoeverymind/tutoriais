@@ -2,7 +2,7 @@
 
 ```sql
 SELECT Function.Name, Function.Label, Function.Description, Function.ExampleString
-FROM FormulaFunctionAllowedType where Type='Flow'
+FROM FormulaFunctionAllowedType WHERE Type='Flow'
 ```
 
 | Função | Descrição | Exemplo | 
