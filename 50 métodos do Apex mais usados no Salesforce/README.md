@@ -2,9 +2,12 @@
 
 | Método                   | Descrição                                                   | Exemplo                                                                                      |
 |--------------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| clear()                  | Limpa todos os elementos de uma coleção.                     | `List<String> lista = new List<String>{'a', 'b', 'c'}; lista.clear();`                       |
-| containsKey()            | Determina se um mapa contém uma determinada chave.           | `Map<String, Integer> mapa = new Map<String, Integer>{'a' => 1, 'b' => 2}; mapa.containsKey('a');` |
-| equalsIgnoreCase()       | Compara duas strings para igualdade, ignorando maiúsculas e minúsculas. | `String str1 = 'Olá'; String str2 = 'olá'; str1.equalsIgnoreCase(str2);`                   |
+| clear()                  | Limpa todos os elementos de uma coleção.                     | `List<String> lista = new List<String>{'a', 'b', 'c'}; 
+lista.clear();`                       |
+| containsKey()            | Determina se um mapa contém uma determinada chave.           | `Map<String, Integer> mapa = new Map<String, Integer>{'a' => 1, 'b' => 2}; 
+mapa.containsKey('a');` |
+| equalsIgnoreCase()       | Compara duas strings para igualdade, ignorando maiúsculas e minúsculas. | `String str1 = 'Olá'; String str2 = 'olá'; 
+str1.equalsIgnoreCase(str2);`                   |
 | floatValue()             | Retorna um valor float para um número fornecido.              | `Integer num = 10; Float floatNum = num.floatValue();`                                       |
 | getClass()               | Retorna a classe em tempo de execução de um objeto.          | `Account acc = new Account(); Type objType = acc.getClass();`                                |
 | getInitialValue()        | Retorna o valor padrão para um determinado campo do sObject. | `SObjectField field = Account.Name; Object defaultValue = field.getInitialValue();`          |
